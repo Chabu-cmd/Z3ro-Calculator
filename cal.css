@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(markus-spiske-iar-afB0QQw-unsplash.jpg);
+
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50rem;
+    border: none;
+    background-color: hsl(0, 3%, 15%);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointwer;
+
+
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: -50%;
+
+}
+.calculator{
+    font-family: sans-serif;
+    background-color: #000000c7;
+    border-radius: 15px;
+    max-width: 500px;
+    overflow:hidden;
+
+}
+#display{
+    width: 100%;
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    border: none;
+    background-color: #000000c5;
+    color: white;
+}
+button:hover{
+    background-color: hsl(0, 3%, 25%);
+}
+button:active{
+    background-color: hsl(0, 3%, 35%);
+}
+.operator{
+    background-color: hsl(102, 81%, 26%);
+}
+.operator:hover{
+    background-color: hsl(102, 81%, 36%);
+}
+.operator:active{
+    background-color: hsl(102, 81%, 46%);
+}
+.function{
+    background-color: hsl(200, 78%, 25%);
+
+}
+.function:hover{
+    background-color: hsl(200, 78%, 35%);
+}
+.function:active{
+    background-color: hsl(200, 78%, 55%);
+}
+.number{
+    background-color: hsl(20, 69%, 40%);
+
+}
+.number:hover{
+    background-color: hsl(20, 69%, 50%);
+}
+.number:active{
+    background-color: hsl(20, 69%, 60%);
+}
